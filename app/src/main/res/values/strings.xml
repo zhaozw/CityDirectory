@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">City Contact</string>
+    <string-array name="location_array">
+        <item>bsk 3rd stage</item>
+        <item>koramangala 1st block</item>
+        <item>koramangala 2nd block</item>
+        <item>koramangala 3rd block</item>
+        <item>koramangala 4th block</item>
+        <item>jayanagar 1st block</item>
+        <item>jayanagar 2nd block</item>
+        <item>jayanagar 3rd block</item>
+        <item>jayanagar 4th block</item>
+    </string-array>
+    <string-array name="language_array">
+        <item>English</item>
+        <item>Kannada</item>
+    </string-array>
+    <string name="title_activity_notfound_result">NotfoundResult</string>
+
+</resources>

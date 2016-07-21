@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textColor="#ff0000"
+        android:layout_alignParentLeft="true"
+        android:textSize="20dp"
+        android:padding="2dp"
+        android:fontFamily="@string/auth_google_play_services_client_facebook_display_name"
+        android:id="@+id/nameTextView" />
+
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_launcher_phone"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:id="@+id/clicktoCallButton"
+        android:textSize="16dp"
+        android:layout_marginRight="36dp"
+        android:width="120dp"
+        android:height="40dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="36dp"
+        android:layout_below="@+id/nameTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="2dp"
+        android:id="@+id/phoneNoTextView"
+        android:layout_below="@+id/nameTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

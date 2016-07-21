@@ -1,0 +1,19 @@
+{
+    "Automobiles & Services": "automobiles_service",
+    "Baby & Toy": "baby_toys",
+    "Clothes & Accessories": "clothings",
+    "Doctors & Hospital" : "doctors_hospitals",
+    "Education": "education",
+    "Electronics & Appliances": "electronics_appliance",
+    "Events": "events",
+    "Food": "food",
+    "Health & Beauty": "health_beauty",
+    "Home Services": "home_services",
+    "Pets & Plants": "pets_animals",
+    "Professional Services": "professiona_services",
+    "Real Estate": "real_estate",
+    "Repair & Services" : "repair_services",
+    "Sports & Fitness": "sports_fitness",
+    "Travel & Transport": "travel_transport"
+
+}

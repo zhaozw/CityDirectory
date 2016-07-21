@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.annojiraodg.citydirectory.MainActivity">
+
+
+    <EditText
+        android:id="@+id/cityTextArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:width="240dp"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:singleLine="true"
+        android:focusableInTouchMode="false"
+        android:hint="      Bengaluru      "
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="22sp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/locationTextArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cityTextArea"
+        android:layout_alignStart="@+id/cityTextArea"
+        android:layout_below="@+id/cityTextArea"
+        android:layout_marginTop="41dp"
+        android:width="240dp"
+        android:singleLine="true"
+        android:hint="  Enter your location  "
+        android:imeOptions="actionDone"
+        android:textAlignment="center"
+        android:foreground="#348"
+        android:textSize="22sp"></AutoCompleteTextView>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locationTextArea"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:text=" Get Started " />
+
+    <TextView
+        android:id="@+id/headingView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Search for Your Area"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/textColor"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+</RelativeLayout>
